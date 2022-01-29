@@ -6,8 +6,8 @@
 
 ## Installation
 ### Requirements
-A desktop Computer, Laptop, Mobile phone, an Ipad or any Device with a screen and has the capabilty of accessing the internet.
-Stable internet Connection.
+* A desktop Computer, Laptop, Mobile phone, an Ipad or any Device with a screen and has the capabilty of accessing the internet.
+* Stable internet Connection.
 ### Installation
 * Open the below provided Link to View the page.
 ## Host Link
