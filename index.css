@@ -61,26 +61,88 @@ nav a{
 
 .sbox{
     display: flex;
+    padding: 5%;
     position: relative;
-    flex-wrap: wrap;
-    left: 15%;
+    left: 10%;
+    max-width: 65%;
     
 }
-.box, .blue{
-    padding: 1%;   
-    text-align: left; 
-    max-width: 16%;
+
+.sbox h2{
+    font-size: larger;
     
+
+}
+
+.sbox p{
+    font-size: medium;
 }
 
 .box{
-    padding: 1%;
-    border: 3px ridge;
+    padding: 2%;
+    text-align: left;
+    width: 25%;
+    background-color: white;
     margin: 1%;
 }
 .blue{
-    padding: 1%;
-    border: 3px ridge;
+    padding: 2%;
+    text-align: left;
+    width: 25%;
     margin: 1%;
+    background-color: #23A6F0;
 
+}
+
+.Container{
+    position: relative;
+    display: inline-flex;
+    padding: 10%;
+    width: 70%;
+    text-align: center;
+    margin-left: 3%;
+}
+.flex{
+    width: 30%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.flex h2, p{
+    font-size: medium;
+    padding: 2%;
+}
+
+.Team{
+    position: relative;
+    left: 22%;
+    width: 40%;
+    padding: 2%;
+    margin: 0%;
+    text-align: center;
+
+}
+
+figure{
+    display: inline-block;
+    padding: 5%;
+    align-content: center;
+    width: 20%;
+    margin: 1%;
+}
+
+figcaption{
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    font-size: x-large;
+}
+.vector{
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    width: 100%;
+}
+.vector img{
+    padding: 0.7%;
 }
