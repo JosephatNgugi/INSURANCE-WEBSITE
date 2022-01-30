@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgba(87, 81, 81, 0.063);
+    /* width: 100%; */
 }
 
 .Landing{
@@ -85,6 +86,7 @@ a{
     left: 10%;
     max-width: 70%;
     bottom: 5%;
+    margin-bottom: 3%;
     
 }
 .sbox img{
@@ -120,28 +122,30 @@ a{
 
 .Container{
     position: relative;
-    display: inline-flex;
+    display: flex;
     padding: 10%;
-    width: 70%;
+    margin: 10%;
+    width: 80%;
     text-align: center;
-    margin-left: 3%;
+    margin-left: 0%;
+    background-color: white;
 }
 .flex{
-    width: 30%;
-    padding: 0%;
-    margin: 0%;
+    width: 50%;
+    padding: 1%;
+    margin: -5%;
     
 }
 .flex h2, p{
-    font-size: medium;
+    font-size: larger;
     padding: 2%;
+    
 }
 
 .Team{
     position: relative;
-    left: 22%;
-    width: 40%;
-    padding: 2%;
+    /* width: 40%; */
+    padding: 1%;
     margin: 0%;
     text-align: center;
 
@@ -150,14 +154,15 @@ a{
 figure{
     display: inline-block;
     padding: 5%;
-    align-content: center;
-    width: 20%;
+    /* align-content: center; */
+    width: 21%;
     margin: 1%;
+    background-color: white;
 }
 
 figcaption{
     text-align: center;
-    width: 100%;
+    width: 110%;
     padding: 1%;
     font-size: x-large;
 }
@@ -175,32 +180,35 @@ figcaption{
     padding: 2%;
     align-items: center;
     margin: 2%;
-    width: 80%;
-    background-image: linear-gradient(45deg, rgba(0, 45, 128, 0.912)10%, rgba(128, 0, 70));
-    display: flex;
+    width: 90%;
+    background-image: linear-gradient(45deg, #043ca3, #f31790);
+    display: inline-flex;
+    float: right;
     position: relative;
 
 }
 
 .subscription button{
-    left: 80%;
+    left: 30%;
     padding: 1%;
     background: #23A6F0;
-    display: flex;
     color: white;
     font-size: large;
     position: relative;
 
     
 }
-/* input[type=text]{
+form{
+    display: contents;
+}
+input[type=text]{
     font-size: large;
-    padding: 5%;
-    width: 130%;
-    left: 100%;
+    padding: 1%;
+    width: 20%;
+    left: 30%;
     position: relative;
     
-} */
+}
 
 
 

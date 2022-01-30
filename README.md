@@ -11,7 +11,7 @@
 ### Installation
 * Open the below provided Link to View the page.
 ## Host Link
-Click on this link to view the live website: 
+Click on this link to view the live website: https://josephatngugi.github.io/Burger-King/
 ## License:
 * MIT License 
 * Copyright (c) [2022] [Josephat Ngugi]
