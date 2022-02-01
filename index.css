@@ -1,4 +1,5 @@
 *{
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
     font-family: '';
@@ -142,11 +143,12 @@ a{
     
 }
 
-.Team{
+.Team, .pricing{
     position: relative;
     /* width: 40%; */
     padding: 1%;
     margin: 0%;
+    font-size: larger;
     text-align: center;
 
 }
@@ -180,6 +182,7 @@ figcaption{
     padding: 2%;
     align-items: center;
     margin: 2%;
+    margin-bottom: 10%;
     width: 90%;
     background-image: linear-gradient(45deg, #043ca3, #f31790);
     display: inline-flex;
@@ -201,14 +204,83 @@ figcaption{
 form{
     display: contents;
 }
-input[type=text]{
+form input[type=text]{
     font-size: large;
     padding: 1%;
     width: 20%;
     left: 30%;
+    position: relative;   
+}
+
+.offers{
+    display: flex;
     position: relative;
-    
+    align-content: center;
+    /* width: 60%; */
+
+}
+.price-box{
+    padding: 5%;
+    margin: 0%;
+    width: 10%;
+    border: 2px;
+    border-color: #23A6F0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.right-text{
+    width: 40%;
+    align-items: center;
+    padding: 2%;
+    margin: 3%;
+    color: white;
+}
+
+.right-text h2{
+    font-size: xx-large;
+    padding: 2%;
+}
+.right-text p{
+    font-size: small;
+}
+.tab{
+    display: flex;
+    background-color: rgb(5, 5, 60);
+    padding: 0%;
+    position: relative;
+    box-sizing: border-box;
+}
+.appointment{
+    width: 40%;
+    padding: 2% 30%;
+}
+.appointment input[type=text], select {
+    display: block;
+    padding: 2% 2%;
+    margin: 1% 0%;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.appointment input[type=submit-button] {
+    background-color: #23A6F0;
+    color: white;
+    text-align: center;
+    padding: 2% 2%;
+    margin: 1% 0%;
+    width: 60%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
-
+@media only screen and (max-width: 768px){
+    .landing{
+        width: 100%;
+        font-size: small;
+    }
+}
